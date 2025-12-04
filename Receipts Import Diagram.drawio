@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="Page-1" id="FwewDpFyGZERumORJOf1">
+    <mxGraphModel dx="1025" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-17" edge="1" parent="1" source="mgmZT47_q6cOXIe4sNJn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;" target="mgmZT47_q6cOXIe4sNJn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-18" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Transaction Services" vertex="1">
+          <mxGeometry height="337.75" width="580" x="90" y="63.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-5" parent="mgmZT47_q6cOXIe4sNJn-18" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.oracle;fillColor=#FA3743;gradientColor=#E10E11" value="Fusion / Oracle" vertex="1">
+          <mxGeometry height="102.4" width="102.4" x="10" y="117.60000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-3" parent="mgmZT47_q6cOXIe4sNJn-18" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.traditional_server;" value="Secure Location on&lt;div&gt;N Drive&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="60" x="170" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-7" edge="1" parent="mgmZT47_q6cOXIe4sNJn-18" source="mgmZT47_q6cOXIe4sNJn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mgmZT47_q6cOXIe4sNJn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-19" parent="mgmZT47_q6cOXIe4sNJn-18" style="swimlane;whiteSpace=wrap;html=1;" value="CS IT" vertex="1">
+          <mxGeometry height="337.75" width="290" x="290" y="-0.0799999999999983" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-8" parent="mgmZT47_q6cOXIe4sNJn-19" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.biztalk_services;" value="Biztalk" vertex="1">
+          <mxGeometry height="72.75" width="80" x="45" y="133.42" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-10" parent="mgmZT47_q6cOXIe4sNJn-19" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" value="Amazon S3" vertex="1">
+          <mxGeometry height="100" width="80" x="170" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-11" edge="1" parent="mgmZT47_q6cOXIe4sNJn-19" source="mgmZT47_q6cOXIe4sNJn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mgmZT47_q6cOXIe4sNJn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-9" edge="1" parent="mgmZT47_q6cOXIe4sNJn-18" source="mgmZT47_q6cOXIe4sNJn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="mgmZT47_q6cOXIe4sNJn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-29" parent="mgmZT47_q6cOXIe4sNJn-18" style="swimlane;" value="UOB IT" vertex="1">
+          <mxGeometry height="200" width="290" x="140" y="69" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="Student Living" vertex="1">
+          <mxGeometry height="337.75" width="230" x="670" y="63.169999999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmZT47_q6cOXIe4sNJn-15" parent="mgmZT47_q6cOXIe4sNJn-20" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS58y0Fb1LsRPZp_thPlTID3F0fEjabiMkUKQ&amp;s;" value="Starrez" vertex="1">
+          <mxGeometry height="78.63" width="77.38" x="76.30999999999995" y="128.56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
